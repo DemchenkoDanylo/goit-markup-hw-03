@@ -12,6 +12,22 @@
   --secondary-bcg-cl: #f5f4fa;
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: var(--main-font);
   font-size: 14px;
@@ -41,6 +57,19 @@ body {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+.section {
+  margin-bottom: 94px 0;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 1200px;
+  /* outline: 1px solid tomato; */
 }
 
 /* header */
@@ -100,14 +129,17 @@ body {
 /* hero */
 
 .hero-title {
+  margin: 0px auto;
+  margin-bottom: 30px;
+  text-align: center;
+  width: 696px;
+
   font-family: var(--main-font);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-
-  text-align: center;
 
   color: #ffffff;
 }
